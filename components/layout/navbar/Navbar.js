@@ -63,13 +63,10 @@ export default function Navbar() {
               </Link>
             </div>
           </div>
-
-
           <MenuToggle setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
         </div>
       </div>
       <NavbarMobile menuOpen={menuOpen} /> 
-    
     </Disclosure>
   );
 }

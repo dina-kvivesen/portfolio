@@ -1,6 +1,5 @@
 import { Disclosure, Transition } from '@headlessui/react';
 import Link from 'next/link';
-import { useContext } from 'react';
 import { useRouter } from 'next/router';
 
 function NavbarMobile({ menuOpen }) {
