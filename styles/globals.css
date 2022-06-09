@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.nav__link {
+  @apply transition block px-3 py-2 rounded-md text-sm text-gray-900 hover:bg-purple-100 active:text-gray-300 active:bg-purple-100;
+}
+.nav__link--active {
+  @apply transition  text-gray-900 bg-purple-100 font-medium;
+}
+.nav__link__mobile {
+  @apply transition block px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-purple-100 hover:text-gray-900 active:text-gray-300 active:bg-purple-100;
+}
+.nav__link__mobile--active {
+  @apply transition  text-gray-900 bg-purple-100 font-medium;
+}
