@@ -55,7 +55,12 @@ export default function Projects() {
                   <h1 className="text-2xl text-center md:text-left font-bold">Holidaze</h1>
                   <h2 className="text-lg text-center md:text-left"> Project exam 2</h2>
                   <p className="text-base text-gray-700 mt-6 leading-relaxed whitespace-pre-line max-w-screen-sm">
-                    A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
+                    A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the 
+                    area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to add accommodations and receive 
+                    enquiries. 
+                  </p>
+                  <p className="text-base text-gray-700 mt-6 leading-relaxed whitespace-pre-line max-w-screen-sm">
+                    This was my final exam project at Noroff.
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <Button href="https://holidazebnb.vercel.app/">
@@ -135,7 +140,16 @@ export default function Projects() {
                   <h1 className="text-2xl text-center md:text-left font-bold">Bergen Shoes</h1>
                   <h2 className="text-lg text-center md:text-left"> Semester Project 2</h2>
                   <p className="text-base text-gray-700 mt-6 leading-relaxed whitespace-pre-line max-w-screen-sm">
-                  Bergen Shoes is an e-commerce website that has both customer-facing and admin sections. The website is responsive and it is populated by a Strapi API supplied by Noroff.
+                  Bergen Shoes is an e-commerce website that has both customer-facing and admin sections.
+                  In the admin sections you can add, edit and delete products. 
+                  In the customer-facing sections the website had to include a view of featured products, 
+                  a view of all projects with a search function, single product pages where you can add and remove 
+                  products to cart (using localStorage) and a cart page showing your added items with the option to view or 
+                  remove them, the total price and a button to clear the cart.
+                  The website is responsive and it is populated by a Strapi API.
+                  </p>
+                  <p className="text-base text-gray-700 mt-6 leading-relaxed whitespace-pre-line max-w-screen-sm">
+                    This was the second year semester project at Noroff.
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <LightButton href="https://github.com/dina-kvivesen/semester-project-2">
@@ -204,7 +218,8 @@ export default function Projects() {
                 <div className="col-span-2 ">
                   <h1 className="text-2xl text-center md:text-left font-bold">Javascript Frameworks Course Assignment</h1>
                   <p className="text-base text-gray-700 mt-6 leading-relaxed whitespace-pre-line max-w-screen-sm">
-                  A next.js app with the following paths: index, detail, detail/:param, contact, login and admin. I used WordPress for the login functionallity, and a open source API.
+                  A next.js app with the following paths: index, detail, detail/:param, contact, login and admin. 
+                  I used WordPress for the login functionality, and an open source API.
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <LightButton href="https://github.com/dina-kvivesen/next-js-assignment">
