@@ -1,7 +1,5 @@
 # Portfolio 2 Course Assignment
- 
-<img width="784" alt="portfolio" src="https://user-images.githubusercontent.com/71272716/173067102-d49e6a57-84bd-4f41-a8fc-f043eb1c8bc2.png">
-
+<img width="368" alt="portfolio mobile" src="https://user-images.githubusercontent.com/71272716/173069458-2fd8ade3-0f8d-4862-824d-5f3cd75676da.png">
 ## Description
 
 This is a portfolio webpage that lists these 3 projects:
