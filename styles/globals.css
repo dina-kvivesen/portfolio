@@ -17,7 +17,7 @@ a {
 }
 
 .nav__link {
-  @apply transition block px-3 py-2 rounded-md text-sm text-gray-900 hover:bg-purple-100 active:text-gray-300 active:bg-purple-100;
+  @apply transition block px-3 py-2 rounded-sm rounded-tl-3xl rounded-br-3xl text-sm text-gray-900 hover:bg-purple-100 active:text-gray-300 active:bg-purple-100;
 }
 .nav__link--active {
   @apply transition  text-gray-900 bg-purple-100 font-medium;
