@@ -1,9 +1,14 @@
 import Head from '../components/layout/Head';
 import Navbar from '../components/layout/navbar/Navbar';
+import Footer from '../components/layout/Footer';
 import { Button, LightButton } from '../components/common/Buttons';
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  ExternalLinkIcon
+} from '@heroicons/react/outline';
 
 export default function Projects() {
 
@@ -54,9 +59,14 @@ export default function Projects() {
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <Button href="https://holidazebnb.vercel.app/">
+                    <ExternalLinkIcon className="w-4 mr-2 icon" />
                       View Live
                     </Button>
                     <LightButton href="https://github.com/dina-kvivesen/holidaze">
+                      <FontAwesomeIcon
+                        className="mr-2" icon={['fab', 'github-alt']} 
+                        style={{ fontSize: 18 }}
+                      />
                       View on Github
                     </LightButton>
                   </div>
@@ -129,6 +139,10 @@ export default function Projects() {
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <LightButton href="https://github.com/dina-kvivesen/semester-project-2">
+                      <FontAwesomeIcon
+                        className="mr-2" icon={['fab', 'github-alt']} 
+                        style={{ fontSize: 18 }}
+                      />
                       View on Github
                     </LightButton>
                   </div>
@@ -194,6 +208,10 @@ export default function Projects() {
                   </p>
                   <div className="pt-4 flex flex-wrap gap-2 items-center justify-center md:justify-start">
                     <LightButton href="https://github.com/dina-kvivesen/next-js-assignment">
+                      <FontAwesomeIcon
+                        className="mr-2" icon={['fab', 'github-alt']} 
+                        style={{ fontSize: 18 }}
+                      />
                       View on Github
                     </LightButton>
                   </div>
@@ -220,6 +238,9 @@ export default function Projects() {
                 </div>
               </div>
             </div>
+        </div>
+        <div className='pt-5' >
+        <Footer/>
         </div>
     </>
   );

@@ -1,6 +1,7 @@
 import Head from '../components/layout/Head';
 import Navbar from '../components/layout/navbar/Navbar';
 import { Button } from '../components/common/Buttons';
+import Footer from '../components/layout/Footer';
 
 export default function Home() {
   
@@ -18,6 +19,9 @@ export default function Home() {
           View Projects
         </Button>
       </div>
+    </div>
+    <div className='fixed bottom-3 text-center mx-auto w-full'>
+      <Footer/>
     </div>
     </>
   );
